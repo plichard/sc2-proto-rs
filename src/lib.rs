@@ -2,6 +2,9 @@
 //! Automatically generated from the protobuf definitions at
 //! [https://github.com/Blizzard/s2client-proto](https://github.com/Blizzard/s2client-proto).
 
+#![feature(custom_inner_attributes)]
+#![allow(renamed_and_removed_lints)]
+
 // All magic is done in the build.rs, this just includes the results
 #[cfg(feature = "protoc-rust")]
 include!(concat!(env!("OUT_DIR"), "/lib.rs"));
